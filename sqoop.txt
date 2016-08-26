@@ -33,7 +33,7 @@ sqoop --options-file database.props \
 Sqoop import for MS SQL server:
 
 sqoop list-databases \
---connect jdbc:sqlserver://<IP Address>:<Port Number>/db1 \
+--connect "jdbc:sqlserver://<IP Address>:<Port Number>/db1" \
 --username <Username> \
 --password <Password>
 
